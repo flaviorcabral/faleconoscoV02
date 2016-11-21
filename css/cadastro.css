@@ -1,0 +1,36 @@
+body{
+    background-color: #ccc;
+}
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: #ccc;
+	box-shadow: #ccc;
+}
+
+.panel-default{
+        position: absolute;
+        right: -280px;
+        top: 50px;
+	width: 200%;
+        padding-top: 10px;
+        border: solid 1px #1b6d85 ;
+}
+
+.container{
+	
+	padding-right: 250px;
+
+}
+
+.sair{
+
+	margin-left: 600px;
+	
+}
+
+
+
