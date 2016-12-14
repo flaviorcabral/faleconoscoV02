@@ -1,7 +1,6 @@
 <?php
-    include_once '../../faleconosco/models/Conexao.class.php';
-    include_once '../../faleconosco/models/Chamado.class.php';
-    include_once '../../faleconosco/controller/Controller.class.php';
+
+    include_once '../config.php';
    
     session_start();
     $c = new Controller();
@@ -99,7 +98,7 @@
     </form>    
     </div>    
     <div class="titulo">
-      <h2 align="center" >Todos os chamados</h>
+      <h2 align="center" >Todos os chamados</h2>
     </div>
   
   <!-- Responsive table starts here -->

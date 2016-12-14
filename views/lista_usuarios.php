@@ -1,7 +1,6 @@
 <?php
-  include_once '../../faleconosco/models/Conexao.class.php';
-  include_once '../../faleconosco/models/Usuario.class.php';
-  include_once '../../faleconosco/controller/Controller.class.php';
+
+include_once '../config.php';
   
   session_start();
   $c =  new Controller();
@@ -102,7 +101,7 @@
     </form>
     </div>   
   <div class="titulo">
-  <h2 align="center" >Lista de usuarios</h>
+  <h2 align="center" >Lista de usuarios</h2>
   </div>
   <!-- Responsive table starts here -->
   <!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->

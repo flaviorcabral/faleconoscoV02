@@ -1,7 +1,6 @@
 <?php
-    include_once '../../faleconosco/models/Conexao.class.php';
-    include_once '../../faleconosco/models/Usuario.class.php';
-    include_once '../../faleconosco/controller/Controller.class.php';
+
+include_once '../config.php';
     
     session_start();
     $c = new Controller();

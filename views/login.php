@@ -1,9 +1,6 @@
 <?php
-    
-include_once '../../faleconosco/models/Conexao.class.php';
-include_once '../../faleconosco/models/Usuario.class.php';
-include_once '../../faleconosco/controller/Controller.class.php';
-//require_once '../faleconosco/config.php';
+
+include_once '../config.php';
 
 $c = new Controller();
 $c->login();

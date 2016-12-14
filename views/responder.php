@@ -1,7 +1,6 @@
 <?php
-    
-    include_once '../../faleconosco/models/Chamado.class.php';
-    include_once '../../faleconosco/controller/Controller.class.php';
+
+    include_once '../config.php';
     
     session_start();
     $c = new Controller();
