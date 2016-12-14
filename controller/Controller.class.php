@@ -15,7 +15,7 @@ class Controller {
                 $chm = new Chamado();
 
                 $result = $chm->addChamado($usuario, $email, $telefone, $opcao, $mensagem);
-                $this->enviaEmail($usuario, $email, $opcao);
+                $this->emailRecebe($usuario, $email, $opcao);
                 if ($result) {
                     header('Location: index.php');
                     exit;
@@ -167,9 +167,7 @@ class Controller {
                 }
             }
     }
-            
-   
-    
+
     function chamadosAbertos(){ 
         
         if (isset($_REQUEST['abertos'])) {
@@ -188,8 +186,7 @@ class Controller {
           return $result;
         }
     } 
-    
-    
+
     function chamadosFechados(){
         
         if (isset($_REQUEST['fechados'])) {
@@ -238,8 +235,7 @@ class Controller {
           return $result;
         }
      }
-         
-            
+
     function responder() {
         
         if (!$this->verificaLogin()) {
